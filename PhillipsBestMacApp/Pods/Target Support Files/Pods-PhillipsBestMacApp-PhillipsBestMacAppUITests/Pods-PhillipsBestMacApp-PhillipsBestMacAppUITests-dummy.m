@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_PhillipsBestMacApp_PhillipsBestMacAppUITests : NSObject
+@end
+@implementation PodsDummy_Pods_PhillipsBestMacApp_PhillipsBestMacAppUITests
+@end

@@ -1,0 +1,744 @@
+2019-10-10 06:38:02 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fa972363840; archive(resolved)='<IDEArchive: 0x7fa96e603670>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodDeveloperID: 0x7fa974d0dcd0>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa96f13dbe0; teamID='C2DD65U2QA', teamName='Phillip LeBlanc (Individual)', teamType='Individual', username='phillip.leblanc@outlook.com', isFreeProvisioningTeam='0'>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fa972363840; archive = '<IDEArchive: 0x7fa96e603670>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7fa974d0dcd0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa96f13dbe0; teamID='C2DD65U2QA', teamName='Phillip LeBlanc (Individual)', teamType='Individual', username='phillip.leblanc@outlook.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fa975f5edf0; archive = '<IDEArchive: 0x7fa96e603670>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7fa974d0dcd0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa96f13dbe0; teamID='C2DD65U2QA', teamName='Phillip LeBlanc (Individual)', teamType='Individual', username='phillip.leblanc@outlook.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa97682bbb0; archive = '<IDEArchive: 0x7fa96e603670>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7fa974d0dcd0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa96f13dbe0; teamID='C2DD65U2QA', teamName='Phillip LeBlanc (Individual)', teamType='Individual', username='phillip.leblanc@outlook.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa97235e150; archive = '<IDEArchive: 0x7fa96e603670>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7fa974d0dcd0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa96f13dbe0; teamID='C2DD65U2QA', teamName='Phillip LeBlanc (Individual)', teamType='Individual', username='phillip.leblanc@outlook.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa972360520; archive = '<IDEArchive: 0x7fa96e603670>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7fa974d0dcd0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa96f13dbe0; teamID='C2DD65U2QA', teamName='Phillip LeBlanc (Individual)', teamType='Individual', username='phillip.leblanc@outlook.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa973f77240; archive = '<IDEArchive: 0x7fa96e603670>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7fa974d0dcd0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa96f13dbe0; teamID='C2DD65U2QA', teamName='Phillip LeBlanc (Individual)', teamType='Individual', username='phillip.leblanc@outlook.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa973f65da0; archive = '<IDEArchive: 0x7fa96e603670>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7fa974d0dcd0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa96f13dbe0; teamID='C2DD65U2QA', teamName='Phillip LeBlanc (Individual)', teamType='Individual', username='phillip.leblanc@outlook.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa973f16380; archive = '<IDEArchive: 0x7fa96e603670>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7fa974d0dcd0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa96f13dbe0; teamID='C2DD65U2QA', teamName='Phillip LeBlanc (Individual)', teamType='Individual', username='phillip.leblanc@outlook.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa973eb76f0; archive = '<IDEArchive: 0x7fa96e603670>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7fa974d0dcd0>', team='(null)'>
+	<IDEDistributionContext: 0x7fa974a68a20; archive = '<IDEArchive: 0x7fa96e603670>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7fa974d0dcd0>', team='(null)'>
+	<IDEDistributionContext: 0x7fa973ddd670; archive = '<IDEArchive: 0x7fa96e603670>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fa972363840>
+2019-10-10 06:38:02 +0000  Processing step: IDEDistributionCreateDestRootStep
+2019-10-10 06:38:02 +0000  Processing step: IDEDistributionCopyItemStep
+2019-10-10 06:38:02 +0000  Running /usr/bin/ditto '-V' '/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app' '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app'
+2019-10-10 06:38:02 +0000  >>> Copying /Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app 
+2019-10-10 06:38:02 +0000  copying file ./Contents/_CodeSignature/CodeResources ... 
+2019-10-10 06:38:02 +0000  7095 bytes for ./Contents/_CodeSignature/CodeResources
+2019-10-10 06:38:02 +0000  copying file ./Contents/MacOS/PhillipsBestMacApp ... 
+2019-10-10 06:38:02 +0000  38896 bytes for ./Contents/MacOS/PhillipsBestMacApp
+2019-10-10 06:38:02 +0000  copying file ./Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib ... 
+2019-10-10 06:38:02 +0000  36763 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib
+copying file ./Contents/Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib ... 
+2019-10-10 06:38:02 +0000  1350 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib
+copying file ./Contents/Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib ... 
+2019-10-10 06:38:02 +0000  3677 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Resources/Base.lproj/Main.storyboardc/Info.plist ... 
+2019-10-10 06:38:02 +0000  445 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/Info.plist
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/libswiftObjectiveC.dylib ... 
+2019-10-10 06:38:02 +0000  62272 bytes for ./Contents/Frameworks/libswiftObjectiveC.dylib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/libswiftCore.dylib ... 
+2019-10-10 06:38:02 +0000  6456320 bytes for ./Contents/Frameworks/libswiftCore.dylib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/libswiftCoreGraphics.dylib ... 
+190560 bytes for ./Contents/Frameworks/libswiftCoreGraphics.dylib
+copying symlink ./Contents/Frameworks/Sparkle.framework/Resources ... 
+linked ./Contents/Frameworks/Sparkle.framework/Resources
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/_CodeSignature/CodeResources ... 
+2019-10-10 06:38:02 +0000  77016 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/_CodeSignature/CodeResources
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/de.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  10130 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/de.lproj/Sparkle.strings
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/de.lproj/SUAutomaticUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  13126 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/de.lproj/SUAutomaticUpdateAlert.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/de.lproj/SUUpdatePermissionPrompt.nib ... 
+2019-10-10 06:38:02 +0000  19608 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/de.lproj/SUUpdatePermissionPrompt.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/de.lproj/SUUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  22636 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/de.lproj/SUUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/he.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  5288 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/he.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ar.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  8452 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ar.lproj/Sparkle.strings
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ar.lproj/SUAutomaticUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  13210 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ar.lproj/SUAutomaticUpdateAlert.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ar.lproj/SUUpdatePermissionPrompt.nib ... 
+2019-10-10 06:38:02 +0000  19572 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ar.lproj/SUUpdatePermissionPrompt.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ar.lproj/SUUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  22694 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ar.lproj/SUUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/el.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  7718 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/el.lproj/Sparkle.strings
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/el.lproj/SUAutomaticUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  13250 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/el.lproj/SUAutomaticUpdateAlert.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/el.lproj/SUUpdatePermissionPrompt.nib ... 
+2019-10-10 06:38:02 +0000  19698 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/el.lproj/SUUpdatePermissionPrompt.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/el.lproj/SUUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  22735 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/el.lproj/SUUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ja.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  8516 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ja.lproj/Sparkle.strings
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ja.lproj/SUAutomaticUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  13114 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ja.lproj/SUAutomaticUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ja.lproj/SUUpdatePermissionPrompt.nib ... 
+2019-10-10 06:38:02 +0000  19326 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ja.lproj/SUUpdatePermissionPrompt.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ja.lproj/SUUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  22610 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ja.lproj/SUUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/en.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  10164 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/en.lproj/Sparkle.strings
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/en.lproj/SUAutomaticUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  13104 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/en.lproj/SUAutomaticUpdateAlert.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/en.lproj/SUUpdatePermissionPrompt.nib ... 
+2019-10-10 06:38:02 +0000  19397 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/en.lproj/SUUpdatePermissionPrompt.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/en.lproj/SUUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  22588 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/en.lproj/SUUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/SUModelTranslation.plist ... 
+2019-10-10 06:38:02 +0000  11859 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/SUModelTranslation.plist
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/uk.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  7844 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/uk.lproj/Sparkle.strings
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/uk.lproj/SUAutomaticUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  13270 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/uk.lproj/SUAutomaticUpdateAlert.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/uk.lproj/SUUpdatePermissionPrompt.nib ... 
+2019-10-10 06:38:02 +0000  19731 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/uk.lproj/SUUpdatePermissionPrompt.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/uk.lproj/SUUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  22824 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/uk.lproj/SUUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/zh_CN.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  6278 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/zh_CN.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/zh_CN.lproj/SUAutomaticUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  13048 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/zh_CN.lproj/SUAutomaticUpdateAlert.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/zh_CN.lproj/SUUpdatePermissionPrompt.nib ... 
+2019-10-10 06:38:02 +0000  19292 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/zh_CN.lproj/SUUpdatePermissionPrompt.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/zh_CN.lproj/SUUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  22508 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/zh_CN.lproj/SUUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/nb.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  9338 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/nb.lproj/Sparkle.strings
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/nb.lproj/SUAutomaticUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  13126 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/nb.lproj/SUAutomaticUpdateAlert.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/nb.lproj/SUUpdatePermissionPrompt.nib ... 
+2019-10-10 06:38:02 +0000  19589 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/nb.lproj/SUUpdatePermissionPrompt.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/nb.lproj/SUUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  22559 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/nb.lproj/SUUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/es.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  10014 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/es.lproj/Sparkle.strings
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/es.lproj/SUAutomaticUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  13160 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/es.lproj/SUAutomaticUpdateAlert.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/es.lproj/SUUpdatePermissionPrompt.nib ... 
+2019-10-10 06:38:02 +0000  19784 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/es.lproj/SUUpdatePermissionPrompt.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/es.lproj/SUUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  22770 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/es.lproj/SUUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/is.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  5868 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/is.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/is.lproj/SUAutomaticUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  13174 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/is.lproj/SUAutomaticUpdateAlert.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/is.lproj/SUUpdatePermissionPrompt.nib ... 
+2019-10-10 06:38:02 +0000  19696 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/is.lproj/SUUpdatePermissionPrompt.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/is.lproj/SUUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  22705 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/is.lproj/SUUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sl.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  7928 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sl.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sl.lproj/SUAutomaticUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  13140 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sl.lproj/SUAutomaticUpdateAlert.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sl.lproj/SUUpdatePermissionPrompt.nib ... 
+2019-10-10 06:38:02 +0000  19653 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sl.lproj/SUUpdatePermissionPrompt.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sl.lproj/SUUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  22668 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sl.lproj/SUUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pt_BR.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  9638 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pt_BR.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pt_BR.lproj/SUAutomaticUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  13178 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pt_BR.lproj/SUAutomaticUpdateAlert.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pt_BR.lproj/SUUpdatePermissionPrompt.nib ... 
+2019-10-10 06:38:02 +0000  19708 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pt_BR.lproj/SUUpdatePermissionPrompt.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pt_BR.lproj/SUUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  22750 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pt_BR.lproj/SUUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/da.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  8342 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/da.lproj/Sparkle.strings
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/da.lproj/SUAutomaticUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  13107 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/da.lproj/SUAutomaticUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/da.lproj/SUUpdatePermissionPrompt.nib ... 
+2019-10-10 06:38:02 +0000  19455 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/da.lproj/SUUpdatePermissionPrompt.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/da.lproj/SUUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  22599 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/da.lproj/SUUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/it.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  8324 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/it.lproj/Sparkle.strings
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/it.lproj/SUAutomaticUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  13110 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/it.lproj/SUAutomaticUpdateAlert.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/it.lproj/SUUpdatePermissionPrompt.nib ... 
+2019-10-10 06:38:02 +0000  19633 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/it.lproj/SUUpdatePermissionPrompt.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/it.lproj/SUUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  22630 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/it.lproj/SUUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sk.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  7532 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sk.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sk.lproj/SUAutomaticUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  13230 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sk.lproj/SUAutomaticUpdateAlert.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sk.lproj/SUUpdatePermissionPrompt.nib ... 
+2019-10-10 06:38:02 +0000  19694 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sk.lproj/SUUpdatePermissionPrompt.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sk.lproj/SUUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  22756 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sk.lproj/SUUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pt_PT.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  7840 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pt_PT.lproj/Sparkle.strings
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pt_PT.lproj/SUAutomaticUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  13184 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pt_PT.lproj/SUAutomaticUpdateAlert.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pt_PT.lproj/SUUpdatePermissionPrompt.nib ... 
+2019-10-10 06:38:02 +0000  19748 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pt_PT.lproj/SUUpdatePermissionPrompt.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pt_PT.lproj/SUUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  22770 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pt_PT.lproj/SUUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sv.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  7816 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sv.lproj/Sparkle.strings
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sv.lproj/SUAutomaticUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  13189 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sv.lproj/SUAutomaticUpdateAlert.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sv.lproj/SUUpdatePermissionPrompt.nib ... 
+2019-10-10 06:38:02 +0000  19609 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sv.lproj/SUUpdatePermissionPrompt.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sv.lproj/SUUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  22730 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sv.lproj/SUUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/DarkAqua.css ... 
+2019-10-10 06:38:02 +0000  98 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/DarkAqua.css
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/cs.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  10606 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/cs.lproj/Sparkle.strings
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/cs.lproj/SUAutomaticUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  13198 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/cs.lproj/SUAutomaticUpdateAlert.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/cs.lproj/SUUpdatePermissionPrompt.nib ... 
+2019-10-10 06:38:02 +0000  19666 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/cs.lproj/SUUpdatePermissionPrompt.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/cs.lproj/SUUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  22720 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/cs.lproj/SUUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ko.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  6204 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ko.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ko.lproj/SUAutomaticUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  13082 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ko.lproj/SUAutomaticUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ko.lproj/SUUpdatePermissionPrompt.nib ... 
+2019-10-10 06:38:02 +0000  19333 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ko.lproj/SUUpdatePermissionPrompt.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ko.lproj/SUUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  22564 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ko.lproj/SUUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/hu.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  9986 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/hu.lproj/Sparkle.strings
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/hu.lproj/SUAutomaticUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  13252 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/hu.lproj/SUAutomaticUpdateAlert.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/hu.lproj/SUUpdatePermissionPrompt.nib ... 
+2019-10-10 06:38:02 +0000  19506 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/hu.lproj/SUUpdatePermissionPrompt.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/hu.lproj/SUUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  22798 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/hu.lproj/SUUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/tr.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  9702 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/tr.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/tr.lproj/SUAutomaticUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  13214 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/tr.lproj/SUAutomaticUpdateAlert.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/tr.lproj/SUUpdatePermissionPrompt.nib ... 
+2019-10-10 06:38:02 +0000  19677 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/tr.lproj/SUUpdatePermissionPrompt.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/tr.lproj/SUUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  22674 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/tr.lproj/SUUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pl.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  8478 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pl.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pl.lproj/SUAutomaticUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  13201 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pl.lproj/SUAutomaticUpdateAlert.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pl.lproj/SUUpdatePermissionPrompt.nib ... 
+2019-10-10 06:38:02 +0000  19480 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pl.lproj/SUUpdatePermissionPrompt.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pl.lproj/SUUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  22709 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pl.lproj/SUUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/zh_TW.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  5734 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/zh_TW.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/zh_TW.lproj/SUAutomaticUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  13054 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/zh_TW.lproj/SUAutomaticUpdateAlert.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/zh_TW.lproj/SUUpdatePermissionPrompt.nib ... 
+2019-10-10 06:38:02 +0000  19302 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/zh_TW.lproj/SUUpdatePermissionPrompt.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/zh_TW.lproj/SUUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  22525 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/zh_TW.lproj/SUUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/_CodeSignature/CodeResources ... 
+2019-10-10 06:38:02 +0000  17034 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/_CodeSignature/CodeResources
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/fileop ... 
+2019-10-10 06:38:02 +0000  124688 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/fileop
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/Autoupdate ... 
+2019-10-10 06:38:02 +0000  267840 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/Autoupdate
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/de.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  10130 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/de.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/he.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  5288 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/he.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/ar.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  8452 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/ar.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/el.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  7718 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/el.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/ja.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  8516 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/ja.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/en.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  10164 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/en.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/uk.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  7844 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/uk.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/zh_CN.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  6278 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/zh_CN.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/nb.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  9338 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/nb.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/es.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  10014 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/es.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/is.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  5868 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/is.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/sl.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  7928 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/sl.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/pt_BR.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  9638 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/pt_BR.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/da.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  8342 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/da.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/it.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  8324 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/it.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/sk.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  7532 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/sk.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/pt_PT.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  7840 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/pt_PT.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/sv.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  7816 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/sv.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/cs.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  10606 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/cs.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/AppIcon.icns ... 
+2019-10-10 06:38:02 +0000  37132 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/AppIcon.icns
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/ko.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  6204 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/ko.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/hu.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  9986 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/hu.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/tr.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  9702 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/tr.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/pl.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  8478 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/pl.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/zh_TW.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  5734 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/zh_TW.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/ru.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  7840 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/ru.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/SUStatus.nib ... 
+2019-10-10 06:38:02 +0000  12281 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/SUStatus.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/fr.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  10138 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/fr.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/fi.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  6184 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/fi.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/nl.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  8834 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/nl.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/th.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  8476 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/th.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/ro.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  9790 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/ro.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/hr.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  9738 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/hr.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/ca.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  6672 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Resources/ca.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Info.plist ... 
+2019-10-10 06:38:02 +0000  1546 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/Info.plist
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/PkgInfo ... 
+2019-10-10 06:38:02 +0000  8 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/PkgInfo
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ru.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  7840 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ru.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ru.lproj/SUAutomaticUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  13252 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ru.lproj/SUAutomaticUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ru.lproj/SUUpdatePermissionPrompt.nib ... 
+2019-10-10 06:38:02 +0000  19822 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ru.lproj/SUUpdatePermissionPrompt.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ru.lproj/SUUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  22804 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ru.lproj/SUUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/SUStatus.nib ... 
+2019-10-10 06:38:02 +0000  12281 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/SUStatus.nib
+2019-10-10 06:38:02 +0000  copying symlink ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/fr_CA.lproj ... 
+2019-10-10 06:38:02 +0000  linked ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/fr_CA.lproj
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/fr.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  10138 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/fr.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/fr.lproj/SUAutomaticUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  13163 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/fr.lproj/SUAutomaticUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/fr.lproj/SUUpdatePermissionPrompt.nib ... 
+2019-10-10 06:38:02 +0000  19776 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/fr.lproj/SUUpdatePermissionPrompt.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/fr.lproj/SUUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  22692 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/fr.lproj/SUUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/fi.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  6184 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/fi.lproj/Sparkle.strings
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/fi.lproj/SUAutomaticUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  13250 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/fi.lproj/SUAutomaticUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/fi.lproj/SUUpdatePermissionPrompt.nib ... 
+2019-10-10 06:38:02 +0000  19506 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/fi.lproj/SUUpdatePermissionPrompt.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/fi.lproj/SUUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  22743 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/fi.lproj/SUUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/nl.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  8834 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/nl.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/nl.lproj/SUAutomaticUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  13122 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/nl.lproj/SUAutomaticUpdateAlert.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/nl.lproj/SUUpdatePermissionPrompt.nib ... 
+2019-10-10 06:38:02 +0000  19413 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/nl.lproj/SUUpdatePermissionPrompt.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/nl.lproj/SUUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  22603 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/nl.lproj/SUUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/th.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  8476 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/th.lproj/Sparkle.strings
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/th.lproj/SUAutomaticUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  13176 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/th.lproj/SUAutomaticUpdateAlert.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/th.lproj/SUUpdatePermissionPrompt.nib ... 
+2019-10-10 06:38:02 +0000  19528 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/th.lproj/SUUpdatePermissionPrompt.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/th.lproj/SUUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  22673 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/th.lproj/SUUpdateAlert.nib
+copying symlink ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pt.lproj ... 
+2019-10-10 06:38:02 +0000  linked ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pt.lproj
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ro.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  9790 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ro.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ro.lproj/SUAutomaticUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  13212 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ro.lproj/SUAutomaticUpdateAlert.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ro.lproj/SUUpdatePermissionPrompt.nib ... 
+2019-10-10 06:38:02 +0000  19466 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ro.lproj/SUUpdatePermissionPrompt.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ro.lproj/SUUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  22754 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ro.lproj/SUUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Info.plist ... 
+2019-10-10 06:38:02 +0000  1311 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Info.plist
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/hr.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  9738 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/hr.lproj/Sparkle.strings
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/hr.lproj/SUAutomaticUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  13205 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/hr.lproj/SUAutomaticUpdateAlert.nib
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/hr.lproj/SUUpdatePermissionPrompt.nib ... 
+2019-10-10 06:38:02 +0000  19507 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/hr.lproj/SUUpdatePermissionPrompt.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/hr.lproj/SUUpdateAlert.nib ... 
+2019-10-10 06:38:02 +0000  22745 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/hr.lproj/SUUpdateAlert.nib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ca.lproj/Sparkle.strings ... 
+2019-10-10 06:38:02 +0000  6672 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ca.lproj/Sparkle.strings
+copying file ./Contents/Frameworks/Sparkle.framework/Versions/A/Sparkle ... 
+2019-10-10 06:38:02 +0000  680176 bytes for ./Contents/Frameworks/Sparkle.framework/Versions/A/Sparkle
+2019-10-10 06:38:02 +0000  copying symlink ./Contents/Frameworks/Sparkle.framework/Versions/Current ... 
+2019-10-10 06:38:02 +0000  linked ./Contents/Frameworks/Sparkle.framework/Versions/Current
+copying symlink ./Contents/Frameworks/Sparkle.framework/Sparkle ... 
+2019-10-10 06:38:02 +0000  linked ./Contents/Frameworks/Sparkle.framework/Sparkle
+copying file ./Contents/Frameworks/libswiftDispatch.dylib ... 
+2019-10-10 06:38:02 +0000  328288 bytes for ./Contents/Frameworks/libswiftDispatch.dylib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/libswiftCoreFoundation.dylib ... 
+2019-10-10 06:38:02 +0000  42128 bytes for ./Contents/Frameworks/libswiftCoreFoundation.dylib
+copying file ./Contents/Frameworks/libswiftDarwin.dylib ... 
+2019-10-10 06:38:02 +0000  99088 bytes for ./Contents/Frameworks/libswiftDarwin.dylib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Frameworks/libswiftIOKit.dylib ... 
+2019-10-10 06:38:02 +0000  45664 bytes for ./Contents/Frameworks/libswiftIOKit.dylib
+copying file ./Contents/Frameworks/libswiftFoundation.dylib ... 
+2019-10-10 06:38:02 +0000  3163408 bytes for ./Contents/Frameworks/libswiftFoundation.dylib
+2019-10-10 06:38:02 +0000  copying file ./Contents/Info.plist ... 
+1696 bytes for ./Contents/Info.plist
+copying file ./Contents/PkgInfo ... 
+8 bytes for ./Contents/PkgInfo
+2019-10-10 06:38:02 +0000  /usr/bin/ditto exited with 0
+2019-10-10 06:38:02 +0000  Processing step: IDEDistributionEmbedProfileStep
+2019-10-10 06:38:02 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa975f5eff0; bundleID='(null)', path='<DVTFilePath:0x7fa976d4d830:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/fileop'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa9700e1060; isSigned='1', isAdHocSigned='1', signingCertificate='(null)', entitlements='{
+    "com.apple.security.get-task-allow" = 1;
+}', teamID='(null)', identifier='fileop-55554944466e4ac6483b30fab73a8c900d5d760a', executablePath='<DVTFilePath:0x7fa976d4d830:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/fileop'>', hardenedRuntime='1'>'>
+2019-10-10 06:38:02 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa973fce2e0; bundleID='org.sparkle-project.Sparkle.Autoupdate', path='<DVTFilePath:0x7fa973d70a30:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa973af0ee0; isSigned='1', isAdHocSigned='1', signingCertificate='(null)', entitlements='{
+    "com.apple.security.get-task-allow" = 1;
+}', teamID='(null)', identifier='org.sparkle-project.Sparkle.Autoupdate', executablePath='<DVTFilePath:0x7fa974ad6440:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/Autoupdate'>', hardenedRuntime='1'>'>
+2019-10-10 06:38:02 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa975f44530; bundleID='org.sparkle-project.Sparkle', path='<DVTFilePath:0x7fa973cf4de0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa976f43ff0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa9749d75f0; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='org.sparkle-project.Sparkle', executablePath='<DVTFilePath:0x7fa976f3ab20:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A/Sparkle'>', hardenedRuntime='0'>'>
+2019-10-10 06:38:02 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa976f51670; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7fa973fe89e0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa9723a1450; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa9749d75f0; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7fa973fe89e0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>
+2019-10-10 06:38:02 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa975d62830; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7fa975d57ee0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa976f51ad0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa9749d75f0; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7fa975d57ee0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>
+2019-10-10 06:38:02 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa9700ec960; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7fa96eda4f70:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa976f402c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa9749d75f0; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7fa96eda4f70:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>
+2019-10-10 06:38:02 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa976f4da80; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7fa975d58fe0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa976f4cf70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa9749d75f0; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7fa975d58fe0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>
+2019-10-10 06:38:02 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa9723f20f0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7fa975d56be0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa976f4eb20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa9749d75f0; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7fa975d56be0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>
+2019-10-10 06:38:02 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa976f4cd60; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7fa975d5b0e0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa975f2ab50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa9749d75f0; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7fa975d5b0e0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>
+2019-10-10 06:38:02 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa976f3bf10; bundleID='com.apple.dt.runtime.swiftIOKit', path='<DVTFilePath:0x7fa975d5a260:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftIOKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa9738e0d30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa9749d75f0; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftIOKit', executablePath='<DVTFilePath:0x7fa975d5a260:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftIOKit.dylib'>', hardenedRuntime='0'>'>
+2019-10-10 06:38:02 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa976f3b660; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7fa973fd5cd0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa976f3c6f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa9749d75f0; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7fa973fd5cd0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>
+2019-10-10 06:38:02 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa976f519c0; bundleID='phillip.PhillipsBestMacApp', path='<DVTFilePath:0x7fa96a06aac0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa9723f3ec0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa976a9ad50; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='{
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+    "com.apple.security.network.client" = 1;
+}', teamID='C2DD65U2QA', identifier='phillip.PhillipsBestMacApp', executablePath='<DVTFilePath:0x7fa973ce79c0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/MacOS/PhillipsBestMacApp'>', hardenedRuntime='1'>'>
+2019-10-10 06:38:02 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2019-10-10 06:38:02 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2019-10-10 06:38:02 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2019-10-10 06:38:02 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2019-10-10 06:38:02 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2019-10-10 06:38:02 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-10-10 06:38:02 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-10-10 06:38:02 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-10-10 06:38:02 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-10-10 06:38:02 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-10-10 06:38:02 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-10-10 06:38:02 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-10-10 06:38:02 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-10-10 06:38:02 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-10-10 06:38:02 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-10-10 06:38:02 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-10-10 06:38:02 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-10-10 06:38:02 +0000  Processing step: IDEDistributionSymbolsStep
+2019-10-10 06:38:02 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-10-10 06:38:02 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-10-10 06:38:02 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-10-10 06:38:02 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-10-10 06:38:02 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-10-10 06:38:02 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-10-10 06:38:02 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-10-10 06:38:02 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-10-10 06:38:02 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-10-10 06:38:02 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-10-10 06:38:02 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-10-10 06:38:02 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-10-10 06:38:02 +0000  Processing step: IDEDistributionAppThinningStep
+2019-10-10 06:38:02 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2019-10-10 06:38:02 +0000  Processing step: IDEDistributionArchThinningStep
+2019-10-10 06:38:02 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/fileop' '-verify_arch' 'arm64e'
+2019-10-10 06:38:02 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-10-10 06:38:02 +0000  Skipping architecture thinning for item "fileop" because arch "arm64e" wasn't found
+2019-10-10 06:38:02 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/Autoupdate' '-verify_arch' 'arm64e'
+2019-10-10 06:38:02 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-10-10 06:38:02 +0000  Skipping architecture thinning for item "Autoupdate" because arch "arm64e" wasn't found
+2019-10-10 06:38:02 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A/Sparkle' '-verify_arch' 'arm64e'
+2019-10-10 06:38:02 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-10-10 06:38:02 +0000  Skipping architecture thinning for item "Sparkle" because arch "arm64e" wasn't found
+2019-10-10 06:38:02 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCore.dylib' '-verify_arch' 'arm64e'
+2019-10-10 06:38:02 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-10-10 06:38:02 +0000  Skipping architecture thinning for item "libswiftCore.dylib" because arch "arm64e" wasn't found
+2019-10-10 06:38:02 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCoreFoundation.dylib' '-verify_arch' 'arm64e'
+2019-10-10 06:38:02 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-10-10 06:38:02 +0000  Skipping architecture thinning for item "libswiftCoreFoundation.dylib" because arch "arm64e" wasn't found
+2019-10-10 06:38:02 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCoreGraphics.dylib' '-verify_arch' 'arm64e'
+2019-10-10 06:38:02 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-10-10 06:38:02 +0000  Skipping architecture thinning for item "libswiftCoreGraphics.dylib" because arch "arm64e" wasn't found
+2019-10-10 06:38:02 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftDarwin.dylib' '-verify_arch' 'arm64e'
+2019-10-10 06:38:02 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-10-10 06:38:02 +0000  Skipping architecture thinning for item "libswiftDarwin.dylib" because arch "arm64e" wasn't found
+2019-10-10 06:38:02 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftDispatch.dylib' '-verify_arch' 'arm64e'
+2019-10-10 06:38:02 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-10-10 06:38:02 +0000  Skipping architecture thinning for item "libswiftDispatch.dylib" because arch "arm64e" wasn't found
+2019-10-10 06:38:02 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftFoundation.dylib' '-verify_arch' 'arm64e'
+2019-10-10 06:38:02 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-10-10 06:38:02 +0000  Skipping architecture thinning for item "libswiftFoundation.dylib" because arch "arm64e" wasn't found
+2019-10-10 06:38:02 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftIOKit.dylib' '-verify_arch' 'arm64e'
+2019-10-10 06:38:02 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-10-10 06:38:02 +0000  Skipping architecture thinning for item "libswiftIOKit.dylib" because arch "arm64e" wasn't found
+2019-10-10 06:38:02 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftObjectiveC.dylib' '-verify_arch' 'arm64e'
+2019-10-10 06:38:02 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-10-10 06:38:02 +0000  Skipping architecture thinning for item "libswiftObjectiveC.dylib" because arch "arm64e" wasn't found
+2019-10-10 06:38:02 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/MacOS/PhillipsBestMacApp' '-verify_arch' 'arm64e'
+2019-10-10 06:38:02 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-10-10 06:38:02 +0000  Skipping architecture thinning for item "PhillipsBestMacApp" because arch "arm64e" wasn't found
+2019-10-10 06:38:02 +0000  Processing step: IDEDistributionODRStep
+2019-10-10 06:38:02 +0000  Processing step: IDEDistributionStripXattrsStep
+2019-10-10 06:38:02 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa975f5eff0; bundleID='(null)', path='<DVTFilePath:0x7fa976d4d830:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/fileop'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa9700e1060; isSigned='1', isAdHocSigned='1', signingCertificate='(null)', entitlements='{
+    "com.apple.security.get-task-allow" = 1;
+}', teamID='(null)', identifier='fileop-55554944466e4ac6483b30fab73a8c900d5d760a', executablePath='<DVTFilePath:0x7fa976d4d830:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/fileop'>', hardenedRuntime='1'>'>
+2019-10-10 06:38:02 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa973fce2e0; bundleID='org.sparkle-project.Sparkle.Autoupdate', path='<DVTFilePath:0x7fa973d70a30:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa973af0ee0; isSigned='1', isAdHocSigned='1', signingCertificate='(null)', entitlements='{
+    "com.apple.security.get-task-allow" = 1;
+}', teamID='(null)', identifier='org.sparkle-project.Sparkle.Autoupdate', executablePath='<DVTFilePath:0x7fa974ad6440:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/Autoupdate'>', hardenedRuntime='1'>'>
+2019-10-10 06:38:02 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa975f44530; bundleID='org.sparkle-project.Sparkle', path='<DVTFilePath:0x7fa973cf4de0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa976f43ff0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa975f9dd90; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='org.sparkle-project.Sparkle', executablePath='<DVTFilePath:0x7fa976f3ab20:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A/Sparkle'>', hardenedRuntime='0'>'>
+2019-10-10 06:38:02 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa976f51670; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7fa973fe89e0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa9723a1450; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa976b81e10; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7fa973fe89e0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>
+2019-10-10 06:38:02 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa975d62830; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7fa975d57ee0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa976f51ad0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa975f9dd90; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7fa975d57ee0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>
+2019-10-10 06:38:02 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa9700ec960; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7fa96eda4f70:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa976f402c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa9768c8b30; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7fa96eda4f70:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>
+2019-10-10 06:38:02 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa976f4da80; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7fa975d58fe0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa976f4cf70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa9768c8b30; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7fa975d58fe0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>
+2019-10-10 06:38:02 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa9723f20f0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7fa975d56be0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa976f4eb20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa976b81e10; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7fa975d56be0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>
+2019-10-10 06:38:02 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa976f4cd60; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7fa975d5b0e0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa975f2ab50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa9768c8b30; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7fa975d5b0e0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>
+2019-10-10 06:38:02 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa976f3bf10; bundleID='com.apple.dt.runtime.swiftIOKit', path='<DVTFilePath:0x7fa975d5a260:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftIOKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa9738e0d30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa9768c8b30; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftIOKit', executablePath='<DVTFilePath:0x7fa975d5a260:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftIOKit.dylib'>', hardenedRuntime='0'>'>
+2019-10-10 06:38:02 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa976f3b660; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7fa973fd5cd0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa976f3c6f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa9768c8b30; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7fa973fd5cd0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>
+2019-10-10 06:38:02 +0000  Running /usr/bin/xattr '-crs' '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app'
+2019-10-10 06:38:03 +0000  /usr/bin/xattr exited with 0
+2019-10-10 06:38:03 +0000  Processing step: IDEDistributionCodesignStep
+2019-10-10 06:38:03 +0000  Entitlements for <IDEDistributionItem: 0x7fa975f5eff0; bundleID='(null)', path='<DVTFilePath:0x7fa976d4d830:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/fileop'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa9700e1060; isSigned='1', isAdHocSigned='1', signingCertificate='(null)', entitlements='{
+    "com.apple.security.get-task-allow" = 1;
+}', teamID='(null)', identifier='fileop-55554944466e4ac6483b30fab73a8c900d5d760a', executablePath='<DVTFilePath:0x7fa976d4d830:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/fileop'>', hardenedRuntime='1'>'>: {
+}
+2019-10-10 06:38:03 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa975f5eff0; bundleID='(null)', path='<DVTFilePath:0x7fa976d4d830:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/fileop'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa9700e1060; isSigned='1', isAdHocSigned='1', signingCertificate='(null)', entitlements='{
+    "com.apple.security.get-task-allow" = 1;
+}', teamID='(null)', identifier='fileop-55554944466e4ac6483b30fab73a8c900d5d760a', executablePath='<DVTFilePath:0x7fa976d4d830:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/fileop'>', hardenedRuntime='1'>'> to: /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/entitlements~~~Lw8k6v
+2019-10-10 06:38:03 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8D53FFD70E9E5ED5EEF1DCEEE490ACEE9D27DAFC' '--entitlements' '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/entitlements~~~Lw8k6v' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "C2DD65U2QA" ))' '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/fileop'
+2019-10-10 06:38:04 +0000  /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/fileop: replacing existing signature
+2019-10-10 06:38:04 +0000  /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/fileop: signed Mach-O thin (x86_64) [fileop-55554944466e4ac6483b30fab73a8c900d5d760a]
+2019-10-10 06:38:04 +0000  /usr/bin/codesign exited with 0
+2019-10-10 06:38:04 +0000  Entitlements for <IDEDistributionItem: 0x7fa973fce2e0; bundleID='org.sparkle-project.Sparkle.Autoupdate', path='<DVTFilePath:0x7fa973d70a30:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa973af0ee0; isSigned='1', isAdHocSigned='1', signingCertificate='(null)', entitlements='{
+    "com.apple.security.get-task-allow" = 1;
+}', teamID='(null)', identifier='org.sparkle-project.Sparkle.Autoupdate', executablePath='<DVTFilePath:0x7fa974ad6440:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/Autoupdate'>', hardenedRuntime='1'>'>: {
+}
+2019-10-10 06:38:04 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa973fce2e0; bundleID='org.sparkle-project.Sparkle.Autoupdate', path='<DVTFilePath:0x7fa973d70a30:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa973af0ee0; isSigned='1', isAdHocSigned='1', signingCertificate='(null)', entitlements='{
+    "com.apple.security.get-task-allow" = 1;
+}', teamID='(null)', identifier='org.sparkle-project.Sparkle.Autoupdate', executablePath='<DVTFilePath:0x7fa974ad6440:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/Autoupdate'>', hardenedRuntime='1'>'> to: /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/entitlements~~~wPq8oq
+2019-10-10 06:38:04 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8D53FFD70E9E5ED5EEF1DCEEE490ACEE9D27DAFC' '--entitlements' '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/entitlements~~~wPq8oq' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "C2DD65U2QA" ))' '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app'
+2019-10-10 06:38:06 +0000  /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app: replacing existing signature
+2019-10-10 06:38:06 +0000  /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app: signed app bundle with Mach-O thin (x86_64) [org.sparkle-project.Sparkle.Autoupdate]
+2019-10-10 06:38:06 +0000  /usr/bin/codesign exited with 0
+2019-10-10 06:38:06 +0000  Entitlements for <IDEDistributionItem: 0x7fa975f44530; bundleID='org.sparkle-project.Sparkle', path='<DVTFilePath:0x7fa973cf4de0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa976f43ff0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa9768c8b30; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='org.sparkle-project.Sparkle', executablePath='<DVTFilePath:0x7fa976f3ab20:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A/Sparkle'>', hardenedRuntime='0'>'>: {
+}
+2019-10-10 06:38:06 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa975f44530; bundleID='org.sparkle-project.Sparkle', path='<DVTFilePath:0x7fa973cf4de0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa976f43ff0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa97684c6a0; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='org.sparkle-project.Sparkle', executablePath='<DVTFilePath:0x7fa976f3ab20:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A/Sparkle'>', hardenedRuntime='0'>'> to: /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/entitlements~~~JgGm5x
+2019-10-10 06:38:06 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8D53FFD70E9E5ED5EEF1DCEEE490ACEE9D27DAFC' '--entitlements' '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/entitlements~~~JgGm5x' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "C2DD65U2QA" ))' '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A'
+2019-10-10 06:38:07 +0000  /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A: replacing existing signature
+2019-10-10 06:38:08 +0000  /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/Sparkle.framework/Versions/A: signed bundle with Mach-O thin (x86_64) [org.sparkle-project.Sparkle]
+2019-10-10 06:38:08 +0000  /usr/bin/codesign exited with 0
+2019-10-10 06:38:08 +0000  Entitlements for <IDEDistributionItem: 0x7fa976f51670; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7fa973fe89e0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa9723a1450; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa974a85c30; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7fa973fe89e0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>: {
+}
+2019-10-10 06:38:08 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa976f51670; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7fa973fe89e0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa9723a1450; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa97680e2c0; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7fa973fe89e0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'> to: /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/entitlements~~~Dt74BB
+2019-10-10 06:38:08 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8D53FFD70E9E5ED5EEF1DCEEE490ACEE9D27DAFC' '--entitlements' '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/entitlements~~~Dt74BB' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "C2DD65U2QA" ))' '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCore.dylib'
+2019-10-10 06:38:09 +0000  /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCore.dylib: replacing existing signature
+2019-10-10 06:38:09 +0000  /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCore.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCore]
+2019-10-10 06:38:09 +0000  /usr/bin/codesign exited with 0
+2019-10-10 06:38:09 +0000  Entitlements for <IDEDistributionItem: 0x7fa975d62830; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7fa975d57ee0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa976f51ad0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa976850180; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7fa975d57ee0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>: {
+}
+2019-10-10 06:38:09 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa975d62830; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7fa975d57ee0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa976f51ad0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa97684c6a0; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7fa975d57ee0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'> to: /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/entitlements~~~AoVc5N
+2019-10-10 06:38:09 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8D53FFD70E9E5ED5EEF1DCEEE490ACEE9D27DAFC' '--entitlements' '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/entitlements~~~AoVc5N' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "C2DD65U2QA" ))' '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCoreFoundation.dylib'
+2019-10-10 06:38:11 +0000  /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2019-10-10 06:38:11 +0000  /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreFoundation]
+2019-10-10 06:38:11 +0000  /usr/bin/codesign exited with 0
+2019-10-10 06:38:11 +0000  Entitlements for <IDEDistributionItem: 0x7fa9700ec960; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7fa96eda4f70:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa976f402c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa973f7a2c0; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7fa96eda4f70:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>: {
+}
+2019-10-10 06:38:11 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa9700ec960; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7fa96eda4f70:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa976f402c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa9768c8b30; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7fa96eda4f70:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'> to: /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/entitlements~~~xVTZfY
+2019-10-10 06:38:11 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8D53FFD70E9E5ED5EEF1DCEEE490ACEE9D27DAFC' '--entitlements' '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/entitlements~~~xVTZfY' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "C2DD65U2QA" ))' '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCoreGraphics.dylib'
+2019-10-10 06:38:12 +0000  /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2019-10-10 06:38:12 +0000  /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreGraphics]
+2019-10-10 06:38:12 +0000  /usr/bin/codesign exited with 0
+2019-10-10 06:38:12 +0000  Entitlements for <IDEDistributionItem: 0x7fa976f4da80; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7fa975d58fe0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa976f4cf70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa9768c8b30; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7fa975d58fe0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>: {
+}
+2019-10-10 06:38:12 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa976f4da80; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7fa975d58fe0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa976f4cf70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa972375360; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7fa975d58fe0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'> to: /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/entitlements~~~HxYrKD
+2019-10-10 06:38:12 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8D53FFD70E9E5ED5EEF1DCEEE490ACEE9D27DAFC' '--entitlements' '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/entitlements~~~HxYrKD' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "C2DD65U2QA" ))' '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftDarwin.dylib'
+2019-10-10 06:38:14 +0000  /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2019-10-10 06:38:14 +0000  /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftDarwin.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftDarwin]
+2019-10-10 06:38:14 +0000  /usr/bin/codesign exited with 0
+2019-10-10 06:38:14 +0000  Entitlements for <IDEDistributionItem: 0x7fa9723f20f0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7fa975d56be0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa976f4eb20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa974e26380; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7fa975d56be0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>: {
+}
+2019-10-10 06:38:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa9723f20f0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7fa975d56be0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa976f4eb20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa974a3ebc0; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7fa975d56be0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'> to: /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/entitlements~~~KEqvkZ
+2019-10-10 06:38:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8D53FFD70E9E5ED5EEF1DCEEE490ACEE9D27DAFC' '--entitlements' '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/entitlements~~~KEqvkZ' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "C2DD65U2QA" ))' '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftDispatch.dylib'
+2019-10-10 06:38:15 +0000  /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2019-10-10 06:38:16 +0000  /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftDispatch.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftDispatch]
+2019-10-10 06:38:16 +0000  /usr/bin/codesign exited with 0
+2019-10-10 06:38:16 +0000  Entitlements for <IDEDistributionItem: 0x7fa976f4cd60; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7fa975d5b0e0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa975f2ab50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa975d662f0; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7fa975d5b0e0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>: {
+}
+2019-10-10 06:38:16 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa976f4cd60; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7fa975d5b0e0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa975f2ab50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa97684c9e0; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7fa975d5b0e0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'> to: /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/entitlements~~~XwXlwY
+2019-10-10 06:38:16 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8D53FFD70E9E5ED5EEF1DCEEE490ACEE9D27DAFC' '--entitlements' '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/entitlements~~~XwXlwY' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "C2DD65U2QA" ))' '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftFoundation.dylib'
+2019-10-10 06:38:17 +0000  /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2019-10-10 06:38:17 +0000  /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftFoundation.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftFoundation]
+2019-10-10 06:38:17 +0000  /usr/bin/codesign exited with 0
+2019-10-10 06:38:17 +0000  Entitlements for <IDEDistributionItem: 0x7fa976f3bf10; bundleID='com.apple.dt.runtime.swiftIOKit', path='<DVTFilePath:0x7fa975d5a260:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftIOKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa9738e0d30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa9745b6040; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftIOKit', executablePath='<DVTFilePath:0x7fa975d5a260:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftIOKit.dylib'>', hardenedRuntime='0'>'>: {
+}
+2019-10-10 06:38:17 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa976f3bf10; bundleID='com.apple.dt.runtime.swiftIOKit', path='<DVTFilePath:0x7fa975d5a260:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftIOKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa9738e0d30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa97684c9e0; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftIOKit', executablePath='<DVTFilePath:0x7fa975d5a260:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftIOKit.dylib'>', hardenedRuntime='0'>'> to: /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/entitlements~~~AdJsuc
+2019-10-10 06:38:17 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8D53FFD70E9E5ED5EEF1DCEEE490ACEE9D27DAFC' '--entitlements' '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/entitlements~~~AdJsuc' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "C2DD65U2QA" ))' '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftIOKit.dylib'
+2019-10-10 06:38:18 +0000  /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftIOKit.dylib: replacing existing signature
+2019-10-10 06:38:19 +0000  /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftIOKit.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftIOKit]
+2019-10-10 06:38:19 +0000  /usr/bin/codesign exited with 0
+2019-10-10 06:38:19 +0000  Entitlements for <IDEDistributionItem: 0x7fa976f3b660; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7fa973fd5cd0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa976f3c6f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa97680cb90; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7fa973fd5cd0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>: {
+}
+2019-10-10 06:38:19 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa976f3b660; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7fa973fd5cd0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa976f3c6f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa97680e2c0; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='(null)', teamID='C2DD65U2QA', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7fa973fd5cd0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'> to: /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/entitlements~~~PzvGTm
+2019-10-10 06:38:19 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8D53FFD70E9E5ED5EEF1DCEEE490ACEE9D27DAFC' '--entitlements' '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/entitlements~~~PzvGTm' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "C2DD65U2QA" ))' '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftObjectiveC.dylib'
+2019-10-10 06:38:20 +0000  /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2019-10-10 06:38:20 +0000  /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app/Contents/Frameworks/libswiftObjectiveC.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftObjectiveC]
+2019-10-10 06:38:20 +0000  /usr/bin/codesign exited with 0
+2019-10-10 06:38:20 +0000  Entitlements for <IDEDistributionItem: 0x7fa976f519c0; bundleID='phillip.PhillipsBestMacApp', path='<DVTFilePath:0x7fa96a06aac0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa9723f3ec0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa975d662f0; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='{
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+    "com.apple.security.network.client" = 1;
+}', teamID='C2DD65U2QA', identifier='phillip.PhillipsBestMacApp', executablePath='<DVTFilePath:0x7fa973ce79c0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/MacOS/PhillipsBestMacApp'>', hardenedRuntime='1'>'>: {
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+    "com.apple.security.network.client" = 1;
+}
+2019-10-10 06:38:20 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa976f519c0; bundleID='phillip.PhillipsBestMacApp', path='<DVTFilePath:0x7fa96a06aac0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa9723f3ec0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa9768c8b30; name='Apple Development: Phillip LeBlanc (VX3398FVAU)', hash='4D3A87E76929A846193D19E7AAC97377B2FE9C46', serialNumber='5611D61B8082758', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-25 01:42:04 +0000''>', entitlements='{
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+    "com.apple.security.network.client" = 1;
+}', teamID='C2DD65U2QA', identifier='phillip.PhillipsBestMacApp', executablePath='<DVTFilePath:0x7fa973ce79c0:'/Users/phillip/Library/Developer/Xcode/Archives/2019-10-10/PhillipsBestMacApp 2019-10-10 3.37 PM.xcarchive/Products/Applications/PhillipsBestMacApp.app/Contents/MacOS/PhillipsBestMacApp'>', hardenedRuntime='1'>'> to: /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/entitlements~~~3mO17h
+2019-10-10 06:38:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8D53FFD70E9E5ED5EEF1DCEEE490ACEE9D27DAFC' '--entitlements' '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/entitlements~~~3mO17h' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "C2DD65U2QA" ))' '/var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app'
+2019-10-10 06:38:21 +0000  /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app: replacing existing signature
+2019-10-10 06:38:22 +0000  /var/folders/lh/x1d6mj155cq7ts7w6wx5bx3h0000gn/T/XcodeDistPipeline.~~~AP2g0Q/Root/Applications/PhillipsBestMacApp.app: signed app bundle with Mach-O thin (x86_64) [phillip.PhillipsBestMacApp]
+2019-10-10 06:38:22 +0000  /usr/bin/codesign exited with 0
+2019-10-10 06:38:22 +0000  Processing step: IDEDistributionZipODRItemStep
+2019-10-10 06:38:22 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-10-10 06:38:22 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-10-10 06:38:22 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-10-10 06:38:22 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-10-10 06:38:22 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-10-10 06:38:22 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-10-10 06:38:22 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-10-10 06:38:22 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-10-10 06:38:22 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-10-10 06:38:22 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-10-10 06:38:22 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-10-10 06:38:22 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-10-10 06:38:22 +0000  Processing step: IDEDistributionSkipPackagingStep
+2019-10-10 06:38:22 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2019-10-10 06:38:22 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2019-10-10 06:38:22 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2019-10-10 06:38:22 +0000  Processing step: IDEDistributionCreateManifestStep
+2019-10-10 06:38:22 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so

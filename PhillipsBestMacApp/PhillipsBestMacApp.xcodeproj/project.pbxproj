@@ -13,6 +13,9 @@
 		291740221FB194A3006C6CEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 291740201FB194A3006C6CEE /* Main.storyboard */; };
 		2917402E1FB194A3006C6CEE /* PhillipsBestMacAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2917402D1FB194A3006C6CEE /* PhillipsBestMacAppTests.swift */; };
 		291740391FB194A3006C6CEE /* PhillipsBestMacAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291740381FB194A3006C6CEE /* PhillipsBestMacAppUITests.swift */; };
+		535BD0F0F50303D854D85316 /* Pods_PhillipsBestMacApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8122068FC52FB9D9AC804C2E /* Pods_PhillipsBestMacApp.framework */; };
+		A16676A331E6F50EC2362BBF /* Pods_PhillipsBestMacAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F1C549A783A9C58C9DD6F5 /* Pods_PhillipsBestMacAppTests.framework */; };
+		A652A27AFF6AAF3EDE6B1EC1 /* Pods_PhillipsBestMacApp_PhillipsBestMacAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BEE810788664F042E3DD941 /* Pods_PhillipsBestMacApp_PhillipsBestMacAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BEE810788664F042E3DD941 /* Pods_PhillipsBestMacApp_PhillipsBestMacAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhillipsBestMacApp_PhillipsBestMacAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		291740171FB194A3006C6CEE /* PhillipsBestMacApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhillipsBestMacApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2917401A1FB194A3006C6CEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2917401C1FB194A3006C6CEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +50,14 @@
 		291740341FB194A3006C6CEE /* PhillipsBestMacAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhillipsBestMacAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		291740381FB194A3006C6CEE /* PhillipsBestMacAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhillipsBestMacAppUITests.swift; sourceTree = "<group>"; };
 		2917403A1FB194A3006C6CEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8122068FC52FB9D9AC804C2E /* Pods_PhillipsBestMacApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhillipsBestMacApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2FCD080DCC0557BAFD6479A /* Pods-PhillipsBestMacAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhillipsBestMacAppTests.release.xcconfig"; path = "Target Support Files/Pods-PhillipsBestMacAppTests/Pods-PhillipsBestMacAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B617138D225545E440A3CBA0 /* Pods-PhillipsBestMacApp-PhillipsBestMacAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhillipsBestMacApp-PhillipsBestMacAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-PhillipsBestMacApp-PhillipsBestMacAppUITests/Pods-PhillipsBestMacApp-PhillipsBestMacAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D10CC433AE85E8B7DF521C30 /* Pods-PhillipsBestMacApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhillipsBestMacApp.debug.xcconfig"; path = "Target Support Files/Pods-PhillipsBestMacApp/Pods-PhillipsBestMacApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D67D633A6DB3F63261442185 /* Pods-PhillipsBestMacApp-PhillipsBestMacAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhillipsBestMacApp-PhillipsBestMacAppUITests.release.xcconfig"; path = "Target Support Files/Pods-PhillipsBestMacApp-PhillipsBestMacAppUITests/Pods-PhillipsBestMacApp-PhillipsBestMacAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D7F1C549A783A9C58C9DD6F5 /* Pods_PhillipsBestMacAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhillipsBestMacAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E13D05F5B9C371312878FC8B /* Pods-PhillipsBestMacApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhillipsBestMacApp.release.xcconfig"; path = "Target Support Files/Pods-PhillipsBestMacApp/Pods-PhillipsBestMacApp.release.xcconfig"; sourceTree = "<group>"; };
+		F6D78C4B8754726342EF8C33 /* Pods-PhillipsBestMacAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhillipsBestMacAppTests.debug.xcconfig"; path = "Target Support Files/Pods-PhillipsBestMacAppTests/Pods-PhillipsBestMacAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				535BD0F0F50303D854D85316 /* Pods_PhillipsBestMacApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A16676A331E6F50EC2362BBF /* Pods_PhillipsBestMacAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A652A27AFF6AAF3EDE6B1EC1 /* Pods_PhillipsBestMacApp_PhillipsBestMacAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +95,8 @@
 				2917402C1FB194A3006C6CEE /* PhillipsBestMacAppTests */,
 				291740371FB194A3006C6CEE /* PhillipsBestMacAppUITests */,
 				291740181FB194A3006C6CEE /* Products */,
+				483D935B2758B9C9000ACD57 /* Pods */,
+				9DE5240083758D32F0C93F5D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +141,29 @@
 			path = PhillipsBestMacAppUITests;
 			sourceTree = "<group>";
 		};
+		483D935B2758B9C9000ACD57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D10CC433AE85E8B7DF521C30 /* Pods-PhillipsBestMacApp.debug.xcconfig */,
+				E13D05F5B9C371312878FC8B /* Pods-PhillipsBestMacApp.release.xcconfig */,
+				B617138D225545E440A3CBA0 /* Pods-PhillipsBestMacApp-PhillipsBestMacAppUITests.debug.xcconfig */,
+				D67D633A6DB3F63261442185 /* Pods-PhillipsBestMacApp-PhillipsBestMacAppUITests.release.xcconfig */,
+				F6D78C4B8754726342EF8C33 /* Pods-PhillipsBestMacAppTests.debug.xcconfig */,
+				A2FCD080DCC0557BAFD6479A /* Pods-PhillipsBestMacAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9DE5240083758D32F0C93F5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8122068FC52FB9D9AC804C2E /* Pods_PhillipsBestMacApp.framework */,
+				1BEE810788664F042E3DD941 /* Pods_PhillipsBestMacApp_PhillipsBestMacAppUITests.framework */,
+				D7F1C549A783A9C58C9DD6F5 /* Pods_PhillipsBestMacAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2917403D1FB194A3006C6CEE /* Build configuration list for PBXNativeTarget "PhillipsBestMacApp" */;
 			buildPhases = (
+				7F4A511B17EB9A4684ECFC15 /* [CP] Check Pods Manifest.lock */,
 				291740131FB194A2006C6CEE /* Sources */,
 				291740141FB194A2006C6CEE /* Frameworks */,
 				291740151FB194A2006C6CEE /* Resources */,
+				CFAD38EA3CB809F70AF3864D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +190,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 291740401FB194A3006C6CEE /* Build configuration list for PBXNativeTarget "PhillipsBestMacAppTests" */;
 			buildPhases = (
+				8AE5D076B509D22F475920A9 /* [CP] Check Pods Manifest.lock */,
 				291740251FB194A3006C6CEE /* Sources */,
 				291740261FB194A3006C6CEE /* Frameworks */,
 				291740271FB194A3006C6CEE /* Resources */,
@@ -166,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 291740431FB194A3006C6CEE /* Build configuration list for PBXNativeTarget "PhillipsBestMacAppUITests" */;
 			buildPhases = (
+				E6869A326A02AF930C773F91 /* [CP] Check Pods Manifest.lock */,
 				291740301FB194A3006C6CEE /* Sources */,
 				291740311FB194A3006C6CEE /* Frameworks */,
 				291740321FB194A3006C6CEE /* Resources */,
+				529D53E4FE141514AE2BDAF2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -187,20 +232,23 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = "Phillip LeBlanc";
 				TargetAttributes = {
 					291740161FB194A2006C6CEE = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Manual;
+						LastSwiftMigration = 1110;
+						ProvisioningStyle = Automatic;
 					};
 					291740281FB194A3006C6CEE = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 1110;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 291740161FB194A2006C6CEE;
 					};
 					291740331FB194A3006C6CEE = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 1110;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 291740161FB194A2006C6CEE;
 					};
@@ -251,6 +299,115 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		529D53E4FE141514AE2BDAF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhillipsBestMacApp-PhillipsBestMacAppUITests/Pods-PhillipsBestMacApp-PhillipsBestMacAppUITests-frameworks.sh",
+				"${PODS_ROOT}/Sparkle/Sparkle.framework",
+				"${PODS_ROOT}/Sparkle/Sparkle.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sparkle.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Sparkle.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhillipsBestMacApp-PhillipsBestMacAppUITests/Pods-PhillipsBestMacApp-PhillipsBestMacAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F4A511B17EB9A4684ECFC15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhillipsBestMacApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AE5D076B509D22F475920A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhillipsBestMacAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFAD38EA3CB809F70AF3864D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhillipsBestMacApp/Pods-PhillipsBestMacApp-frameworks.sh",
+				"${PODS_ROOT}/Sparkle/Sparkle.framework",
+				"${PODS_ROOT}/Sparkle/Sparkle.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sparkle.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Sparkle.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhillipsBestMacApp/Pods-PhillipsBestMacApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6869A326A02AF930C773F91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhillipsBestMacApp-PhillipsBestMacAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		291740131FB194A2006C6CEE /* Sources */ = {
@@ -319,6 +476,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -326,6 +484,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -353,7 +512,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -376,6 +535,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -383,6 +543,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -404,7 +565,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -413,42 +574,49 @@
 		};
 		2917403E1FB194A3006C6CEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D10CC433AE85E8B7DF521C30 /* Pods-PhillipsBestMacApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = PhillipsBestMacApp/PhillipsBestMacApp.entitlements;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 4RRBE46N33;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = C2DD65U2QA;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = PhillipsBestMacApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = phillip.PhillipsBestMacApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		2917403F1FB194A3006C6CEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E13D05F5B9C371312878FC8B /* Pods-PhillipsBestMacApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = PhillipsBestMacApp/PhillipsBestMacApp.entitlements;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 4RRBE46N33;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = C2DD65U2QA;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = PhillipsBestMacApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = phillip.PhillipsBestMacApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 		291740411FB194A3006C6CEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6D78C4B8754726342EF8C33 /* Pods-PhillipsBestMacAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -459,13 +627,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = phillip.PhillipsBestMacAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhillipsBestMacApp.app/Contents/MacOS/PhillipsBestMacApp";
 			};
 			name = Debug;
 		};
 		291740421FB194A3006C6CEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2FCD080DCC0557BAFD6479A /* Pods-PhillipsBestMacAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -476,13 +645,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = phillip.PhillipsBestMacAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhillipsBestMacApp.app/Contents/MacOS/PhillipsBestMacApp";
 			};
 			name = Release;
 		};
 		291740441FB194A3006C6CEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B617138D225545E440A3CBA0 /* Pods-PhillipsBestMacApp-PhillipsBestMacAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -492,13 +662,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = phillip.PhillipsBestMacAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = PhillipsBestMacApp;
 			};
 			name = Debug;
 		};
 		291740451FB194A3006C6CEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D67D633A6DB3F63261442185 /* Pods-PhillipsBestMacApp-PhillipsBestMacAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,7 +679,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = phillip.PhillipsBestMacAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = PhillipsBestMacApp;
 			};
 			name = Release;

@@ -1,0 +1,6 @@
+framework module Pods_PhillipsBestMacAppTests {
+  umbrella header "Pods-PhillipsBestMacAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
